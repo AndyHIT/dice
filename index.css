@@ -1,0 +1,99 @@
+.dice-point {
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 3px #ff8989, inset 0 -3px maroon;
+}
+.dice-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: inset 0 5px #f6f6f6, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
+}
+
+.dice-wrapper-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-wrapper-two {
+  display: flex;
+  justify-content: space-between;
+}
+.dice-wrapper-two .dice-point:nth-child(1) {
+  align-self: flex-start;
+  margin: 10px;
+}
+.dice-wrapper-two .dice-point:nth-child(2) {
+  align-self: flex-end;
+  margin: 10px;
+}
+
+.dice-wrapper-three {
+  display: flex;
+  justify-content: space-between;
+}
+.dice-wrapper-three .dice-point:nth-child(1) {
+  align-self: flex-start;
+  margin: 10px;
+}
+.dice-wrapper-three .dice-point:nth-child(2) {
+  align-self: center;
+}
+.dice-wrapper-three .dice-point:nth-child(3) {
+  align-self: flex-end;
+  margin: 10px;
+}
+
+.dice-wrapper-four {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.dice-wrapper-four .dice-point {
+  margin: 15px;
+}
+
+.dice-wrapper-five {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.dice-wrapper-five .dice-point:nth-child(1) {
+  align-self: flex-start;
+  margin: 10px 15px;
+}
+.dice-wrapper-five .dice-point:nth-child(2) {
+  align-self: flex-start;
+  margin: 10px 15px;
+}
+.dice-wrapper-five .dice-point:nth-child(3) {
+  align-self: center;
+  margin: 0 30px;
+}
+.dice-wrapper-five .dice-point:nth-child(4) {
+  align-self: flex-end;
+  margin: 10px 15px;
+}
+.dice-wrapper-five .dice-point:nth-child(5) {
+  align-self: flex-end;
+  margin: 10px 15px;
+}
+
+.dice-wrapper-six {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.dice-wrapper-six .dice-point {
+  margin: 10px 15px;
+}
+.dice-wrapper-six .dice-point:nth-child(3) {
+  margin: 0 15px;
+}
+.dice-wrapper-six .dice-point:nth-child(4) {
+  margin: 0 15px;
+}
